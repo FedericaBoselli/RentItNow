@@ -12,7 +12,8 @@ Each time a rental is performed, the cars are added to the "rented_cars" list an
 
 --Users have (at least) name, surname, address, credit card, driving license--
 
-### Administrative Operations: System administrators (referred to as "Boss") have access to administrative functionalities including:
+### Administrative Operations: 
+System administrators (referred to as "Boss") have access to administrative functionalities including:
 - **Adding, updating, and removing cars from the system**. In case of cars updates or removals, the program first checks that the cars are present in the database
 - **Checking the status of cars (currently on rental and not on rental), including location, distance traveled, next service time, and   availability**. The location will be showed as route "Start Circle - End Circle", the distance travelled will be set to the distance   selected for the rental performed by the user. The company must service its cars every 1500km, so the next service time will be calculated in terms of kilometers as: 1500 - total distance travelled. Moreover, the car status will be set to "Not in Service" and tthe car won't be available. 
 - **Adding, updating, and removing user accounts**. 
